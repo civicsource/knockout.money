@@ -1,18 +1,18 @@
 # Knockout Money Extender
 
-> A simple knockout extender that wraps [accounting.js](http://josscrowcroft.github.io/accounting.js/).
+> A simple knockout extender which wraps [accounting.js](http://josscrowcroft.github.io/accounting.js/).
 
-## Install with [Bower](http://bower.io/)
+## Installation
 
 ```
-bower install knockout-money
+npm install knockout-money
 ```
 
 Then add `knockout.money.js` to your project.
 
-## How to Use
+## Usage
 
-Include the script on your page (either via a normal script tag or via an AMD loader). Then use it like so:
+`require` the script in your bundle, then:
 
 ```js
 var money = ko.observable().extend({ money: true });
