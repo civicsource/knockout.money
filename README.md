@@ -5,10 +5,8 @@
 ## Installation
 
 ```
-npm install knockout-money
+npm install knockout.money
 ```
-
-Then add `knockout.money.js` to your project.
 
 ## Usage
 
